@@ -13,8 +13,7 @@ public protocol Mockable {
 }
 
 public extension Mockable {
-    static var mockValue: 
-    Self {
+    static var mockValue: Self {
         return Self.mockValue(injectedValues: [:])
     }
 
